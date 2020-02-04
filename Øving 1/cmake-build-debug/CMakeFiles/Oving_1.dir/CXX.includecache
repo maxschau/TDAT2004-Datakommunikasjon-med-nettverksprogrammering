@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Øving 1/main.cpp
+iostream
+-
+thread
+-
+vector
+-
+mutex
+-
+list
+-
+cmath
+-
+queue
+-
+
