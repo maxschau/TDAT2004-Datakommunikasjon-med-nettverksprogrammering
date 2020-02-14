@@ -1,0 +1,3 @@
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Oving 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Oving 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Oving 2/cmake-build-debug/CMakeFiles/Oving_2.dir
