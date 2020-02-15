@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Oving 2/Workers.h
+thread
+-
+list
+-
+mutex
+-
+condition_variable
+-
+vector
+-
+
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Oving 2/main.cpp
+iostream
+-
+Workers.h
+/Users/maxschau/Programmering/NTNU/Nettverksprogrammering/Oving 2/Workers.h
+mutex
+-
+
