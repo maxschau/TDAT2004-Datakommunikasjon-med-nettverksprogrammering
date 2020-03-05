@@ -24,7 +24,7 @@ public class ThreadClientHandler extends Thread {
             //Scanner sc = new Scanner(System.in);
 
             //Enkel tjener oppgave
-            System.out.println("Hello");
+            System.out.println("Koblet til");
 
             String number1 = reader.readLine();
             String number2 = reader.readLine();
@@ -36,13 +36,17 @@ public class ThreadClientHandler extends Thread {
             while (!number1.equals("") || !number2.equals("") || !operator.equals("")) {
                 if (operator.equals("+")) {
                     int answer = Integer.parseInt(number1) + Integer.parseInt(number2);
+                    writer.println("The answer was: " + answer);
                     System.out.println(number1 + " " + operator + " " + number2 + " = " + answer);
 
                 } else if (operator.equals("-")) {
                     int answer = Integer.parseInt(number1) - Integer.parseInt(number2);
+                    writer.println("The answer was: " + answer);
                     System.out.println(number1 + " " + operator + " " + number2 + " = " + answer);
                 } else {
                     System.out.println("Unvalid operator");
+                    writer.println("Unvalid operator");
+
                 }
 
                 number1 = reader.readLine();

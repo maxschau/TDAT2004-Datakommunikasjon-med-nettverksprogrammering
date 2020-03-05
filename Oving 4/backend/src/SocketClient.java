@@ -28,14 +28,18 @@ public class SocketClient {
         String number2 = readerCMD.nextLine();
         String operator = readerCMD.nextLine();
 
+
         while (!number1.equals("") || !number2.equals("") || !operator.equals("")) {
             writer.println(number1);  // sender teksten til tjeneren
             writer.println(number2);  // sender teksten til tjeneren
             writer.println(operator);  // sender teksten til tjeneren
+            System.out.println("Answer: " + reader.readLine());
             number1 = readerCMD.nextLine();
             number2 = readerCMD.nextLine();
             operator = readerCMD.nextLine();
+
         }
+
 
         /* Lukker forbindelsen */
         reader.close();

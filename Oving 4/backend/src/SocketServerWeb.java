@@ -43,7 +43,6 @@ public class SocketServerWeb {
                 client.getOutputStream().write(httpResponse.getBytes("UTF-8"));
                 reader.close();
                 writer.close();
-                client.close();
             }
 
 
