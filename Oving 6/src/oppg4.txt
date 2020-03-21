@@ -1,0 +1,7 @@
+For å endre koden slik at den bruker optimistisk låsing la jeg til et nytt felt i databsetabellen Account som jeg kalte
+"lockingfield".
+
+I Account-klassen la jeg også til denne som en objektvariabel i klassen med annotasjonen @Version. (les oppg1.txt) for
+en nærmere beskrivelse av hvordan optimisk låsing fungerer.
+
+Kjørte koden flere ganger og fant ut at problemet som oppstod i oppg3 ikke skjedde igjen.

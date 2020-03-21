@@ -1,0 +1,6 @@
+Opptimistisk låsing er en standard i Java Persistence som skal forhindre at dersom en klient gjør en endring samtidig med en
+annen klient. Begge klientene leser nemlig verdien samtidig, oppdaterer den og deretter skriver den tilbake
+
+Måten det fungerer i Java Persistence er at man legger til et ekstra felt i databasetabellen. Dette kan man for eksempel kalle
+laasefelt. Laasfelt vil oppdateres hver gang noen skriver til akkurat den raden (entiteten). Dermed er det mulig å se om noen har
+oppdatert raden etter at verdien er lest ut.

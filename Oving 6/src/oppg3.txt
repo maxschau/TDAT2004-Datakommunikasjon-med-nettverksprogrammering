@@ -1,0 +1,7 @@
+Dersom jeg ikke brukte optimistisk låsing var det flere tilfeller der jeg så at overføringen ikke gikk som den skulle.
+I mitt tilfelle hadde brukeren som skulle sende penger kroner 100 på konto. Brukeren skulle sende 1 kr til en ny bruker.
+
+For å sjekke hva som kunne gå galt kjørte jeg tre tråder som gjorde dette samtidig. Da fikk jeg se at det ved flere tilfeller
+førte til at bruker 1 hadde 98 kr, mens bruker 2 hadde kr 23.
+
+Hadde det kjørt som det skulle skulle bruker 1 ha overført totalt tre kroner, mens bruker 2 skulle ha mottatt 3 kroner.
